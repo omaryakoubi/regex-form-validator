@@ -1,22 +1,49 @@
 h1 { 
     text-align: center;
+    color: #353535;
+}
+
+#username{
+   margin-top: 20px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background: #353535;
+	color: #FFF;
 }
 
 .inputText {
-
     width: 20%;
     padding: 10px 20px;
-    margin: 4px 0;
-    border: 2px solid rgb(214, 212, 212);
+    margin: 2px 0;
+    border: 2px solid rgb(175, 1, 82);
     border-radius: 4px;
     
 }
 
-::placeholder {     
+::placeholder {    
+    text-align: center; 
     font-size: 17px;
     color: rgb(122, 122, 122);
   }
 
-#copyright{
-    text-align: right;;
+form {
+    border: 2px solid rgb(175, 1, 82);
+    border-radius: 10px;
+    width: 900px;
+    border-width: 3px;
+    
 }
+
+#omar {
+    border: 2px solid #D24D57;
+}
+
+#omar:after {
+        background: #D24D57;
+        -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+        -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+        transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    }
