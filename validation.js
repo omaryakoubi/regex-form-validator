@@ -1,8 +1,8 @@
-document.getElementById('username').addEventListener('sign', validateUsername);
-document.getElementById('email').addEventListener('sign', validateEmail);
-document.getElementById('password1').addEventListener('sign', validatePassword);
-document.getElementById('phoneNumber').addEventListener('sign', validatePhone);
-document.getElementById('cardNumber').addEventListener('sign', validateCard);
+document.getElementById('username').addEventListener('blur', validateUsername);
+document.getElementById('email').addEventListener('blur', validateEmail);
+document.getElementById('password1').addEventListener('blur', validatePassword);
+document.getElementById('phoneNumber').addEventListener('blur', validatePhone);
+document.getElementById('cardNumber').addEventListener('blur', validateCard);
 
 function validateUsername() {
     const user = document.getElementById('username');
