@@ -1,0 +1,22 @@
+h1 { 
+    text-align: center;
+}
+
+.inputText {
+
+    width: 20%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    border: 2px solid rgb(214, 212, 212);
+    border-radius: 4px;
+    
+}
+
+::placeholder {     
+    font-size: 17px;
+    color: rgb(122, 122, 122);
+  }
+
+#copyright{
+    text-align: right;;
+}
