@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>RegEx Form</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>New User Signup</h1>
-    <center><form>
-    <input id = 'username' class = 'inputText' type="text" placeholder = "Username" required>
-      <p id ='errorUsername'></p>
-    <input id = 'email' class = 'inputText' type="email" placeholder = "Email" required>
-      <p id = 'errorEmail'></p>
-    <input id = 'password1' class = 'inputText' type="password" placeholder="Password" required><br>
-      <p id = 'errorPassword'></p>
-    <input id = 'phoneNumber' class = 'inputText' type="text" placeholder = "Phone Number (00216)" required>
-      <p id = 'errorPhonenumber'></p>
-    <input id = 'cardNumber' class = 'inputText' type="text"placeholder = "CardNumber" required>
-      <p id = 'errorCardnumber'></p>
+<head>
+  <meta charset="utf-8" />
+  <title>RegEx Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>New User Signup</h1>
+  <center>
+    <form>
+      <input id = 'username' class = 'inputText' type="text" placeholder = "Username" required>
+      <p id ='errorUsername'>Must be alphanumeric and contain 5-12 characters ex: walid123</p>
+      <input id = 'email' class = 'inputText' type="email" placeholder = "Email" required>
+      <p id = 'errorEmail'>Email must be a valid address, e.g. me@mydomain.com</p>
+      <input id = 'password' class = 'inputText' type="password" placeholder="Password" required><br>
+      <p id = 'errorPassword'>Must be alphanumeric contain 5-12 charracters, must have uppercase and lowercase ex : OMar123</p>
+      <input id = 'phoneNumber' class = 'inputText' type="text" placeholder = "Phone Number (00216)" required>
+      <p id = 'errorPhonenumber'>Must be a valid Tunisa number(13 digit) ex: 0021620200200</p>
+      <input id = 'cardNumber' class = 'inputText' type="text"placeholder = "CardNumber" required>
+      <p id = 'errorCardnumber'>Must be numeric (6-digit) between every two digit (-) ex: 12-35-89</p>
       <a href="#" class="btn btn-sm animated-button signup">Sign up</a>
-    </form></center>
-    
-    
-    <script type="text/javascript" src="validation.js"></script>
-  </body>
+    </form>
+  </center>
+  <script type="text/javascript" src="validation.js"></script>
+</body>
 </html>
